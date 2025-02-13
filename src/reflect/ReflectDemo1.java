@@ -5,7 +5,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- *
+ * 反射机制
+ * 反射是java的动态机制,它允许我们程序在[运行期间]确定方法的调用,属性的操作,对象的实例化等
+ * 反射机制提高了代码的灵活度,但是运行效率相对较低,开销大,因此不能过度的依赖
  */
 public class ReflectDemo1 {
     public static void main(String[] args) throws ClassNotFoundException {
