@@ -37,7 +37,7 @@ public class Person {
     public void sleep(){
         System.out.println(name+":睡觉");
     }
-    @AutoRunMethod
+    @AutoRunMethod(7)
     public void watchTV(){
         System.out.println(name+":看电视");
     }
